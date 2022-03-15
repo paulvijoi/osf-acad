@@ -1,0 +1,14 @@
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: row;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    font-size: medium;
+}
+
+
