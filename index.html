@@ -17,48 +17,63 @@
 </head>
 <body>
 <header>
-    <nav class="headernav">
+    <div class="header-wrapper fixed-top">
         <a class="logo" href="index.html"><img src="img/logo.jpg" alt="logoOSF">
-            <div>   
-                <h1>OSF</h1><h2>Academy</h2>
-            </div>
+           <!-- <div id="logotext">   
+                <h2>OSF</h2><h5>Academy</h5>
+            </div> -->
         </a>   
-            <ul class="nav nav-tabs text-uppercase">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">services</a>
-                </li>
+            
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler collased d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">company</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">product categories</a></li>
-                    <li><a class="dropdown-item" href="#">services</a></li>
-                    <li><a class="dropdown-item" href="#">library</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">contact us</a></li>
-                </ul>
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product Categories</a>
+                        <ul class="submenu dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li> <a class="dropdown-item" href="#">Alcohol</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="dropdown-item" href="#">Sale</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">library</a>
+                  <a class="nav-link" href="404.html">Company</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link disabled">contact us</a>
+                  <a class="nav-link" href="404.html">Library</a>
                 </li>
-             </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="404.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
 
-        <div>
+        <div class="user">
         <img src="img/search.png" alt="search">
         <img src="img/user-logo.png" alt="user-logo">
         <img src="img/heart-shape.png" alt="heart-shape">
         <img src="img/shopping-bag.png" alt="shopping-bag">
         </div>  
-    </nav>
+    </div>
 </header>
 
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 <!--
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
